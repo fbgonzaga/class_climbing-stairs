@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class ClimbingStairsAnyKFinalTest {
+class ClimbingStairsAnyKV3Test {
     private static ClimbingStairsAnyK climbingStairsAnyK;
 
     @BeforeAll
     static void beforeAll() {
-        climbingStairsAnyK = new ClimbingStairsAnyKFinal();
+        climbingStairsAnyK = new ClimbingStairsAnyKV3();
     }
 
     @Test
